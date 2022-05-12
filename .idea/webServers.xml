@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="878fb936-5d81-4dd3-83e9-dad15a3be221" name="tigu">
+        <fileTransfer rootFolder="/home/kaius.karon" accessType="SFTP" host="tigu.hk.tlu.ee" port="22" sshConfigId="d4688b0c-6c2d-422d-95bd-ccb77ecd487a" sshConfig="kaius.karon@tigu.hk.tlu.ee:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

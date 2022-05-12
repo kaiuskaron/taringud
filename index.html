@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Täringud</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<video autoplay muted loop id="myVideo">
+    <source src="dice.mp4" type="video/mp4">
+</video>
+
+<div class="content">
+    <input type="text" id="sisend" value="1d6+2d8+1d4">
+    <button id="veereta">Veereta</button>
+    <button id="puhasta">Puhasta</button>
+    <div id="tulemus"></div>
+</div>
+<script src="script.js" type="module"></script>
+</body>
+</html>

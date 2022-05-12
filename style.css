@@ -1,0 +1,95 @@
+body {
+    padding: 2rem;
+    font-size: 18px;
+    margin: 5rem auto;
+}
+
+button {
+    text-decoration: none;
+    color: black;
+    border: 2px solid #d0d0d0;
+    border-radius: 2px;
+    font-size: 12px;
+    padding: 18px 47px;
+    text-transform: uppercase;
+    background: #efefef;
+    margin-right: 16px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+input {
+    text-decoration: none;
+    color: black;
+    border: 2px solid #d0d0d0;
+    border-radius: 2px;
+    padding: 18px;
+    margin-right: 16px;
+    display: inline-block;
+}
+
+#tulemus {
+    padding: 1rem;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rida {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+.score {
+    margin: 0 1rem;
+}
+
+.dice {
+    border: 1px solid white;
+    background: black;
+    border-radius: 12px;
+    display: flex;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    color: white;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.critical {
+    color: red;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 600px){
+    .content {
+        width: 90%;
+        top: 20px;
+    }
+
+    button, input {
+        display: block;
+        width: -webkit-fill-available;
+        margin-bottom: 8px;
+        margin-right: 0;
+    }
+}
